@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+#yesButton {
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+}
+
+#noButton {
+    background: linear-gradient(45deg, #6c757d, #495057);
+}
+
+canvas {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+main {
+    position: relative;
+} 
